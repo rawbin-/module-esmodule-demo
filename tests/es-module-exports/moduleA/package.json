@@ -1,0 +1,13 @@
+{
+    "type": "module",
+    "main": "./main-export.js",
+    "exports": {
+        "import": "./esm-export.mjs",
+        "require": "./reuire-export.cjs",
+        "node": {
+            "require": "./require-export.cjs",
+            "import": "./esm-export.mjs"
+        },
+        "default": "./main-export.js"
+    }
+}
