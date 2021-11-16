@@ -1,6 +1,6 @@
 {
     "type": "module",
-    "main": "./main-export.js",
+    "main": "./main-export.mjs",
     "exports": {
         "import": "./esm-export.mjs",
         "require": "./reuire-export.cjs",
@@ -8,6 +8,7 @@
             "require": "./require-export.cjs",
             "import": "./esm-export.mjs"
         },
-        "default": "./main-export.js"
+        "default": "./main-export.mjs"
     }
 }
+
